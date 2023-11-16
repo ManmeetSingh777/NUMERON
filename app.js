@@ -3,5 +3,5 @@
 var play_button = document.getElementById("play-button");
 play_button.onclick = function(){play()}
 function play (){
-    location.href='./game.html';
+    window.location.href='./game.html';
 }

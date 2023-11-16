@@ -9,7 +9,7 @@ play_again.onclick = function(){playagain()}
 
 function playagain(){
 
-    location.href='./game.html';
+    window.location.href='./game.html';
 }
 
 

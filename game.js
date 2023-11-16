@@ -39,7 +39,7 @@ function greater(){
         num2.innerText = number2;
     }
     else{
-        location.href='./gameover.html'
+        window.window.location.href='./gameover.html'
     }
 }
 function equal(){
@@ -53,7 +53,7 @@ function equal(){
         resetTime(timerId)
     }
     else{
-        location.href='./gameover.html'
+        window.location.href='./gameover.html'
     }
 }
 function lesser(){
@@ -67,7 +67,7 @@ function lesser(){
         num2.innerText = number2;
     }
     else{
-        location.href='./gameover.html'
+        window.location.href='./gameover.html'
     }
 }
 showTimer()
@@ -77,7 +77,7 @@ function showTimer(){
     timerId= setInterval(()=>{
         time--;
         if (time==0){
-            location.href='./gameover.html';
+            window.location.href='./gameover.html';
         }
         timer.innerText = time;
         localStorage.setItem('score',score);
